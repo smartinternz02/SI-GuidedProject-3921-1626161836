@@ -1,0 +1,12 @@
+<launch>
+<!--thisismyfirstlaunchfile-->
+<node pkg="my_first_package" type="node_one.py" name="node_1" output="screen">
+</node>
+
+<node pkg="my_first_package" type="node_two.py" name="node_2" output="screen">
+</node>
+
+<node pkg="my_first_package" type="node_three.py" name="node_3" output="screen">
+</node>
+
+</launch>
